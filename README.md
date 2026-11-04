@@ -18,8 +18,7 @@ go get github.com/phongnd2802/trellis
 ## Development
 
 ```sh
-make test   # go test -race ./...
-make lint   # golangci-lint run
+make check  # everything CI runs: tidy, vet, test, lint, govulncheck
 ```
 
 Integration tests that call real APIs use the `integration` build tag:

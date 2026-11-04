@@ -9,6 +9,7 @@ import "encoding/json"
 // Role identifies who authored a message.
 type Role string
 
+// Roles a Message can have.
 const (
 	RoleSystem    Role = "system"
 	RoleUser      Role = "user"
@@ -46,6 +47,7 @@ type Response struct {
 // StopReason explains why generation ended.
 type StopReason string
 
+// Stop reasons a provider can report.
 const (
 	StopEnd       StopReason = "end"
 	StopMaxTokens StopReason = "max_tokens"
