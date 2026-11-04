@@ -29,3 +29,7 @@ go test -tags integration ./...
 ```
 
 Status: `v0.x` — the API may change.
+
+## License
+
+[MIT](LICENSE)
